@@ -1,0 +1,28 @@
+Feature:  Login
+    Como usuário
+    Quero fazer login
+    Para acessar minha conta
+
+    Scenario: Login com sucesso
+        Given que eu esteja na página de login
+        When eu insiro as credenciais válidas
+        Then sou redirecionado para a página inicial
+
+
+Feature: Cadastrar
+    Como usuário
+    Quero cadastrar um novo curso
+
+    Scenario:  Criar curso com sucesso
+        Given que eu esteja no formulario de cadastrar curso
+        When eu preencho o formulario com os requisitos validos e clico em [CADASTRAR CURSO]
+        Then sou redirecionado para a lista de cursos
+
+Feature: Excluir
+    Como usuario
+    Quero excluir um curso listado
+
+    Scenario: Excluir curso com sucesso
+        Given que eu esteja na listagem de cursos disponíveis
+        When eu clico em [EXCLUIR CURSO]
+        Then deve sumir o curso excluido da listagem de cursos
