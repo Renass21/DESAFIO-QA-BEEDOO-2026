@@ -18,6 +18,24 @@ Feature: Cadastrar
         When eu preencho o formulario com os requisitos validos e clico em [CADASTRAR CURSO]
         Then sou redirecionado para a lista de cursos
 
+Feature: Listar
+    Como usuario
+    Quero acessar a lista de cursos
+
+    Scenario: Listar cursos com sucesso
+        Given que eu esteja na home page
+        When eu clico em [LISTAR CURSOS]
+        Then sou redirecionado para a listagem de todos os cursos
+
+Feature: Editar
+    Como usuario
+    Quero editar um curso listado
+
+    Scenario: Editar um curso com sucesso
+        Given que eu esteja na home page
+        When eu clico em [EDITAR CURSO]
+        Then sou redirecionado para o formulario com os dados do curso
+
 Feature: Excluir
     Como usuario
     Quero excluir um curso listado
