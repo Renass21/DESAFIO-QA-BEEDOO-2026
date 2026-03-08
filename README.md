@@ -11,4 +11,5 @@ Mostrando a quantidade de vagas, periodo, nome do professor, descrição e link 
 Cadastrar e listar os cursos ofertados.
 
 **Quais pontos do sistema você considera mais críticos para teste?**
-Na minha visão por ser um painel de adm dos cursos, primeiro a autenticação, por segundo o formulário de cadastro de cursos.
+
+Na minha visão por ser um painel de adm dos cursos, primeiro a autenticação, por segundo o formulário de cadastro de cursos focando na funcionalidade do sistema.
